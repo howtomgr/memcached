@@ -1,0 +1,64 @@
+{
+  "category": "caching",
+  "created_date": "2025-09-15T22:48:58.165142",
+  "default_ports": [
+    11211,
+    11212
+  ],
+  "dependencies": [
+    "libevent",
+    "2.0+",
+    "(for",
+    "event",
+    "notification)"
+  ],
+  "description": "Memcached is a free and open-source, high-performance, distributed memory object caching system. Originally developed by Danga Interactive for LiveJournal, it's now used by many high-traffic websites as an in-memory key-value store that significantly reduces database load and improves application response times. It serves as a FOSS alternative to commercial caching solutions like Redis Enterprise or AWS ElastiCache.",
+  "difficulty_level": "intermediate",
+  "documentation_url": "https://howtomgr.github.io/caching/memcached",
+  "estimated_setup_time": "15-30 minutes",
+  "features": [
+    "multi-os-support",
+    "comprehensive-documentation",
+    "security-hardening",
+    "performance-optimization",
+    "backup-restore-procedures",
+    "troubleshooting-guides"
+  ],
+  "guide_path": "/caching/memcached",
+  "installation_methods": [
+    "native-packages",
+    "source-compilation"
+  ],
+  "last_updated": "2025-09-15T22:48:58.165182",
+  "license": "Open Source",
+  "maintenance_status": "active",
+  "name": "memcached",
+  "repository_url": "https://github.com/howtomgr/memcached",
+  "spec_version": "2.0",
+  "subcategory": "caching",
+  "supported_os": [
+    "rhel",
+    "centos",
+    "rocky",
+    "almalinux",
+    "debian",
+    "ubuntu",
+    "arch",
+    "alpine",
+    "opensuse",
+    "sles",
+    "macos",
+    "freebsd",
+    "windows"
+  ],
+  "tags": [
+    "caching",
+    "observability",
+    "data-storage",
+    "security",
+    "data-protection"
+  ],
+  "title": "Memcached Installation Guide",
+  "version": "1.0.0",
+  "website_url": "https://howtomgr.github.io/caching/memcached"
+}
